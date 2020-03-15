@@ -2,16 +2,15 @@ import React from 'react';
 import {MyButton as Button } from '../Styling/MaterialUI/styledComponents';
 import {MyBUtton2 as Butt} from '../Styling/MaterialUI/styledComponents';
 import {Test} from "./ImageGroup"
+import {TitleBar} from "./TitleBar"
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col'
+import Col from 'react-bootstrap/Col';
 
 export const Home = () => {
   return (
     <div className="App">
-    <h1>
-    What UP
-    </h1>
+    <TitleBar/>
     <Button>
     Click like
     </Button>

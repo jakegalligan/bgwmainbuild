@@ -22,3 +22,11 @@
     margin-top: 55%;
     max-width: 100%;
 }
+
+.wrapper {
+    transform: translate(0px, 0);
+    transition: transform .8s ease;
+}
+.wrapper:hover {
+    transform: scale(1.1);
+}

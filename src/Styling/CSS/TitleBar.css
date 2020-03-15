@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+.main {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 140%;
+}
+
+.black {
+    color: black;
+}
+
+.gray {
+    color: gray
+}
+
+.white {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.box {
+    height: 20%;
+    background: transparent;
+}
