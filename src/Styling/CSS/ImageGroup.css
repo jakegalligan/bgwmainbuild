@@ -7,6 +7,10 @@
     max-width: 100%;
 }
 
+.test {
+    width: 100%;
+}
+
 .image-right {
     position: absolute;
     z-index: 2;
@@ -29,4 +33,21 @@
 }
 .wrapper:hover {
     transform: scale(1.1);
+}
+
+.jt {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 0;
+}
+
+.center {
+    position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.wide {
+    width: 100%;
 }

@@ -10,7 +10,7 @@ import Grow from '@material-ui/core/Grow'
 export const Image = () => {
   return (
     <div class="wrapper">
-      <img src="https://lastfm.freetls.fastly.net/i/u/ar0/892c0fb6c6a83ea7cda5e59670a73cf5.jpg" />
+      <img class="test" src="https://lastfm.freetls.fastly.net/i/u/ar0/892c0fb6c6a83ea7cda5e59670a73cf5.jpg" />
     </div>
  
   );
